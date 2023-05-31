@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC96F2BD2A27163800994211 /* KelvinKaungCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F2BC2A27163800994211 /* KelvinKaungCardApp.swift */; };
+		BC96F2BF2A27163800994211 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F2BE2A27163800994211 /* ContentView.swift */; };
+		BC96F2C12A27163B00994211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC96F2C02A27163B00994211 /* Assets.xcassets */; };
+		BC96F2C42A27163B00994211 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC96F2C32A27163B00994211 /* Preview Assets.xcassets */; };
+		BC96F2CE2A27163B00994211 /* KelvinKaungCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F2CD2A27163B00994211 /* KelvinKaungCardTests.swift */; };
+		BC96F2D82A27163B00994211 /* KelvinKaungCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F2D72A27163B00994211 /* KelvinKaungCardUITests.swift */; };
+		BC96F2DA2A27163B00994211 /* KelvinKaungCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F2D92A27163B00994211 /* KelvinKaungCardUITestsLaunchTests.swift */; };
+		BC96F2E82A2716FE00994211 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC96F2E72A2716FE00994211 /* Pacifico-Regular.ttf */; };
+		BC96F2E92A2716FE00994211 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC96F2E72A2716FE00994211 /* Pacifico-Regular.ttf */; };
+		BC96F2EA2A2716FE00994211 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC96F2E72A2716FE00994211 /* Pacifico-Regular.ttf */; };
+		BC96F2ED2A273D4D00994211 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96F2EC2A273D4D00994211 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC96F2CA2A27163B00994211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC96F2B12A27163800994211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC96F2B82A27163800994211;
+			remoteInfo = KelvinKaungCard;
+		};
+		BC96F2D42A27163B00994211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC96F2B12A27163800994211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC96F2B82A27163800994211;
+			remoteInfo = KelvinKaungCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC96F2B92A27163800994211 /* KelvinKaungCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KelvinKaungCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC96F2BC2A27163800994211 /* KelvinKaungCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelvinKaungCardApp.swift; sourceTree = "<group>"; };
+		BC96F2BE2A27163800994211 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC96F2C02A27163B00994211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC96F2C32A27163B00994211 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC96F2C92A27163B00994211 /* KelvinKaungCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelvinKaungCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC96F2CD2A27163B00994211 /* KelvinKaungCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelvinKaungCardTests.swift; sourceTree = "<group>"; };
+		BC96F2D32A27163B00994211 /* KelvinKaungCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelvinKaungCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC96F2D72A27163B00994211 /* KelvinKaungCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelvinKaungCardUITests.swift; sourceTree = "<group>"; };
+		BC96F2D92A27163B00994211 /* KelvinKaungCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelvinKaungCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC96F2E72A2716FE00994211 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		BC96F2EB2A27170F00994211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BC96F2EC2A273D4D00994211 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC96F2B62A27163800994211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC96F2C62A27163B00994211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC96F2D02A27163B00994211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC96F2B02A27163800994211 = {
+			isa = PBXGroup;
+			children = (
+				BC96F2BB2A27163800994211 /* KelvinKaungCard */,
+				BC96F2CC2A27163B00994211 /* KelvinKaungCardTests */,
+				BC96F2D62A27163B00994211 /* KelvinKaungCardUITests */,
+				BC96F2BA2A27163800994211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC96F2BA2A27163800994211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC96F2B92A27163800994211 /* KelvinKaungCard.app */,
+				BC96F2C92A27163B00994211 /* KelvinKaungCardTests.xctest */,
+				BC96F2D32A27163B00994211 /* KelvinKaungCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC96F2BB2A27163800994211 /* KelvinKaungCard */ = {
+			isa = PBXGroup;
+			children = (
+				BC96F2EB2A27170F00994211 /* Info.plist */,
+				BC96F2E62A2716EB00994211 /* Font */,
+				BC96F2BC2A27163800994211 /* KelvinKaungCardApp.swift */,
+				BC96F2BE2A27163800994211 /* ContentView.swift */,
+				BC96F2EC2A273D4D00994211 /* InfoView.swift */,
+				BC96F2C02A27163B00994211 /* Assets.xcassets */,
+				BC96F2C22A27163B00994211 /* Preview Content */,
+			);
+			path = KelvinKaungCard;
+			sourceTree = "<group>";
+		};
+		BC96F2C22A27163B00994211 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC96F2C32A27163B00994211 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC96F2CC2A27163B00994211 /* KelvinKaungCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC96F2CD2A27163B00994211 /* KelvinKaungCardTests.swift */,
+			);
+			path = KelvinKaungCardTests;
+			sourceTree = "<group>";
+		};
+		BC96F2D62A27163B00994211 /* KelvinKaungCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC96F2D72A27163B00994211 /* KelvinKaungCardUITests.swift */,
+				BC96F2D92A27163B00994211 /* KelvinKaungCardUITestsLaunchTests.swift */,
+			);
+			path = KelvinKaungCardUITests;
+			sourceTree = "<group>";
+		};
+		BC96F2E62A2716EB00994211 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BC96F2E72A2716FE00994211 /* Pacifico-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC96F2B82A27163800994211 /* KelvinKaungCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC96F2DD2A27163B00994211 /* Build configuration list for PBXNativeTarget "KelvinKaungCard" */;
+			buildPhases = (
+				BC96F2B52A27163800994211 /* Sources */,
+				BC96F2B62A27163800994211 /* Frameworks */,
+				BC96F2B72A27163800994211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KelvinKaungCard;
+			productName = KelvinKaungCard;
+			productReference = BC96F2B92A27163800994211 /* KelvinKaungCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC96F2C82A27163B00994211 /* KelvinKaungCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC96F2E02A27163B00994211 /* Build configuration list for PBXNativeTarget "KelvinKaungCardTests" */;
+			buildPhases = (
+				BC96F2C52A27163B00994211 /* Sources */,
+				BC96F2C62A27163B00994211 /* Frameworks */,
+				BC96F2C72A27163B00994211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC96F2CB2A27163B00994211 /* PBXTargetDependency */,
+			);
+			name = KelvinKaungCardTests;
+			productName = KelvinKaungCardTests;
+			productReference = BC96F2C92A27163B00994211 /* KelvinKaungCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC96F2D22A27163B00994211 /* KelvinKaungCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC96F2E32A27163B00994211 /* Build configuration list for PBXNativeTarget "KelvinKaungCardUITests" */;
+			buildPhases = (
+				BC96F2CF2A27163B00994211 /* Sources */,
+				BC96F2D02A27163B00994211 /* Frameworks */,
+				BC96F2D12A27163B00994211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC96F2D52A27163B00994211 /* PBXTargetDependency */,
+			);
+			name = KelvinKaungCardUITests;
+			productName = KelvinKaungCardUITests;
+			productReference = BC96F2D32A27163B00994211 /* KelvinKaungCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC96F2B12A27163800994211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BC96F2B82A27163800994211 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BC96F2C82A27163B00994211 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BC96F2B82A27163800994211;
+					};
+					BC96F2D22A27163B00994211 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BC96F2B82A27163800994211;
+					};
+				};
+			};
+			buildConfigurationList = BC96F2B42A27163800994211 /* Build configuration list for PBXProject "KelvinKaungCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC96F2B02A27163800994211;
+			productRefGroup = BC96F2BA2A27163800994211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC96F2B82A27163800994211 /* KelvinKaungCard */,
+				BC96F2C82A27163B00994211 /* KelvinKaungCardTests */,
+				BC96F2D22A27163B00994211 /* KelvinKaungCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC96F2B72A27163800994211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC96F2E82A2716FE00994211 /* Pacifico-Regular.ttf in Resources */,
+				BC96F2C42A27163B00994211 /* Preview Assets.xcassets in Resources */,
+				BC96F2C12A27163B00994211 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC96F2C72A27163B00994211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC96F2E92A2716FE00994211 /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC96F2D12A27163B00994211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC96F2EA2A2716FE00994211 /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC96F2B52A27163800994211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC96F2BF2A27163800994211 /* ContentView.swift in Sources */,
+				BC96F2BD2A27163800994211 /* KelvinKaungCardApp.swift in Sources */,
+				BC96F2ED2A273D4D00994211 /* InfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC96F2C52A27163B00994211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC96F2CE2A27163B00994211 /* KelvinKaungCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC96F2CF2A27163B00994211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC96F2DA2A27163B00994211 /* KelvinKaungCardUITestsLaunchTests.swift in Sources */,
+				BC96F2D82A27163B00994211 /* KelvinKaungCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC96F2CB2A27163B00994211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC96F2B82A27163800994211 /* KelvinKaungCard */;
+			targetProxy = BC96F2CA2A27163B00994211 /* PBXContainerItemProxy */;
+		};
+		BC96F2D52A27163B00994211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC96F2B82A27163800994211 /* KelvinKaungCard */;
+			targetProxy = BC96F2D42A27163B00994211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC96F2DB2A27163B00994211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC96F2DC2A27163B00994211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC96F2DE2A27163B00994211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KelvinKaungCard/Preview Content\"";
+				DEVELOPMENT_TEAM = ZJX29JM8H6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KelvinKaungCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kelvin.KelvinKaungCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC96F2DF2A27163B00994211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KelvinKaungCard/Preview Content\"";
+				DEVELOPMENT_TEAM = ZJX29JM8H6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KelvinKaungCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kelvin.KelvinKaungCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC96F2E12A27163B00994211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJX29JM8H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kelvin.KelvinKaungCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KelvinKaungCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KelvinKaungCard";
+			};
+			name = Debug;
+		};
+		BC96F2E22A27163B00994211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJX29JM8H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kelvin.KelvinKaungCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KelvinKaungCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KelvinKaungCard";
+			};
+			name = Release;
+		};
+		BC96F2E42A27163B00994211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJX29JM8H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kelvin.KelvinKaungCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KelvinKaungCard;
+			};
+			name = Debug;
+		};
+		BC96F2E52A27163B00994211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJX29JM8H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.kelvin.KelvinKaungCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KelvinKaungCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC96F2B42A27163800994211 /* Build configuration list for PBXProject "KelvinKaungCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC96F2DB2A27163B00994211 /* Debug */,
+				BC96F2DC2A27163B00994211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC96F2DD2A27163B00994211 /* Build configuration list for PBXNativeTarget "KelvinKaungCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC96F2DE2A27163B00994211 /* Debug */,
+				BC96F2DF2A27163B00994211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC96F2E02A27163B00994211 /* Build configuration list for PBXNativeTarget "KelvinKaungCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC96F2E12A27163B00994211 /* Debug */,
+				BC96F2E22A27163B00994211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC96F2E32A27163B00994211 /* Build configuration list for PBXNativeTarget "KelvinKaungCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC96F2E42A27163B00994211 /* Debug */,
+				BC96F2E52A27163B00994211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC96F2B12A27163800994211 /* Project object */;
+}
